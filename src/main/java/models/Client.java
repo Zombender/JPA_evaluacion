@@ -23,13 +23,15 @@ public class Client {
     @Column(length = 20)
     private String date;
 
-    public Client(String date, String phone, String email, String fullName) {
-        this.date = date;
-        this.phone = phone;
-        this.email = email;
-        this.fullName = fullName;
-    }
     public Client(){
 
     }
+
+    public Client(String fullName,String email, String phone,String date) {
+        this.fullName = fullName;
+        this.email = email;
+        this.phone = phone;
+        this.date = date;
+    }
+
 }

@@ -7,5 +7,4 @@ public interface IClient {
     public List<Client> getClients();
     public void update (Client client);
     public void delete (Client client);
-
 }
